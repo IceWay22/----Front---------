@@ -1,0 +1,65 @@
+body {
+    /* правила для установки шрифта для всей страницы*/
+    font-family: 'Pangolin', cursive;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.square {
+    /* square - стиль для базового элемента - квадрата*/
+    width: 300px;
+    /* ширина квадрата*/
+    height: 300px;
+    /* высота кадрата*/
+    background: #b9f211;
+    /* фоновый цвет*/
+    margin: 20px auto;
+    /* внешние отступы */
+}
+
+.square_2 {
+    /* square_2 - 2-й квадрат в 1 строке */
+    background: linear-gradient(70deg, blue, pink);
+    /* градиентная заливка - линейный градиент с поворотом линии на 70 градусов*/
+}
+
+.square_3 {
+    /* square_3 - 3-й квадрат в 1 строке */
+    border: 5px solid red;
+    /* красная рамка толщиной 5px */
+    background-color: black;
+    /* фоновый цвет - черный */
+}
+
+.square_4 {
+    /* square_4 - 1-й квадрат во 2 строке */
+    border-left: 5px dotted black;
+    /* левая сторона рамки толщиной 5px точками */
+    border-right: 3px solid rgb(255, 188, 2);
+    /* правая рамка толщиной 3px */
+    border-bottom: 3px solid rgb(255, 188, 2);
+    /* нижняя рамка толщиной 3px */
+    border-top: 3px solid rgb(255, 188, 2);
+    /* верхняя рамка толщиной 3px */
+    background: #2bf374;
+    /* фоновый цвет */
+}
+
+.square_5 {
+    /*square_5-2-йквадратво2строке*/
+    margin: 0;
+    /*сбиваемвнешниеотступына0,т.к.поумолчаниюукнопкибылотступсверху*/
+    border-radius: 0px;
+    /* убираем скругление углов кнопки*/
+}
+
+.square_6 {
+    /* square_6 - 3-й квадрат во 2 строке */
+    background: #6122d6;
+    /* фоновы цвет */
+    border-top: 300px solid #e7b11b;
+    /* правая рамка толщиной 300px и заливка желтый*/
+    border-left: 150px solid transparent;
+    /* отрисовка рамки слева прозрачного цвета */
+    border-right: 150px solid transparent;
+    /* отрисовка рамки справа прозрачного цвета */
+}
